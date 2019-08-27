@@ -10,6 +10,7 @@ export default function App() {
   return (
     <Router>
       <Switch>
+        <Route path="/words/:count" component={TopWords} />
         <Route path="/" component={TopWords} />
       </Switch>
     </Router>
